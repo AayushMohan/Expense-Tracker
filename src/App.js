@@ -1,3 +1,4 @@
+import Card from "./Components/Card";
 import ExpenseItem from "./Components/ExpenseItem";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
   ];
 
   return (
-    <div className="expenses">
+    <Card className="expenses">
       <h2>Let's get started!</h2>
       <ExpenseItem
         title={expenses[0].title}
@@ -46,7 +47,7 @@ function App() {
         amount={expenses[3].amount}
         date={expenses[3].date}
       />
-    </div>
+    </Card>
   );
 }
 export default App;
