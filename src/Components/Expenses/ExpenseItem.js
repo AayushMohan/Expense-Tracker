@@ -1,8 +1,8 @@
-import React from "react";
-import ExpenseDate from "./ExpenseDate";
-import Card from "../Card";
+import React, { useState } from "react";
+
+import ExpenseDate from "./ExpenseDate"; // ./ means current directory
 import "./ExpenseItem.css";
-import { useState } from "react";
+import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
