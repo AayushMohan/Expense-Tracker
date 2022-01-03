@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div>
       <NewExpense />
-      <h2>Let's get started!</h2>
+      {/* <h2>Let's get started!</h2> */}
       <Expenses items={expenses} />
     </div>
   );
