@@ -66,8 +66,8 @@ const ExpenseForm = (props) => {
             <label>Title</label>
             <input
               type="text"
-              onChange={titleChangeHandler}
               value={enteredTitle}
+              onChange={titleChangeHandler}
             />
           </div>
 
