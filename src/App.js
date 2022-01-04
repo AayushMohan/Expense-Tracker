@@ -24,8 +24,8 @@ const expenses = [
 ];
 
 const addExpenseHandler = (expense) => {
-  console.log("In App.js");
-  console.log(expense);
+  // console.log("In App.js");
+  // console.log(expense);
 };
 
 const App = () => {
